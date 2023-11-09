@@ -1,0 +1,50 @@
+* {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("backgroundImg.jpg");
+    background-size: contain;
+}
+
+main {
+    background-color: #f8f9fa;
+    width: 60%;
+    z-index: 2;
+    height: 1550px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#profile {
+    width: 18%;
+    float: right;
+    position: relative;
+    bottom: 138px;
+    margin-right: 64px;
+}
+
+p, h1, h4 {
+    text-indent: 16px;
+}
+
+h4 {
+    width: 70%;
+    margin-top: 48px;
+    border-bottom: 1px solid black;
+}
+
+table {
+    margin-left: 24px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+#link {
+    float: right;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
